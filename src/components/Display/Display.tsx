@@ -1,9 +1,5 @@
 import React from 'react';
-
-//interface
 import { DisplayProps } from './DisplayProps';
-
-//styles
 import css from './Display.module.scss';
 
 export const Display: React.FC<DisplayProps> = ({values}) => {
